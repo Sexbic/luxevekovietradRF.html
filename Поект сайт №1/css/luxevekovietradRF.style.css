@@ -1,0 +1,283 @@
+@charset "UTF-8";
+* {
+    margin:0;
+    padding:0;
+
+
+}
+body{
+    max-width: 1920px;
+    max-height: 1080px;
+    color: rgb(255, 238, 206);
+    background: rgb(0, 0, 0);
+    font-size: 1em ;
+    font-family: "Bradley hand,cursive", sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-variant:normal;
+    line-height: 200%;
+}
+a {
+    color:rgb(191, 188, 223);
+    text-decoration: none;
+    transition: all.6s ease;
+    -moz-transition: all.6s ease;
+    -webkit-transition: all.6s ease;
+    -ms-transition: all.6s ease;
+}
+a.hover {
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    transition: all.6s ease;
+    -moz-transition: all.6s ease;
+    -webkit-transition: all.6s ease;
+    -ms-transition: all.6s ease;
+}
+a:active {color: orange }
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+}
+
+/*Selection block*/
+::selection {background: whitesmoke; color: rgb(46, 0, 0)}
+::-moz-selection {background: whitesmoke; color: rgb(46, 0, 0)}
+::-webkit-selection {background: whitesmoke; color: rgb(46, 0, 0)}
+::-ms-selection {background: whitesmoke; color: rgb(46, 0, 0)}
+
+
+header {
+    padding-top: 40px;
+}
+header, footer {
+    max-width: auto;
+    max-height: auto;
+    background-color:black ;
+    margin: auto;
+} 
+.logo{
+    width: 57px;
+    height: 57px;
+    margin: auto;
+    color: darkgrey;
+}
+
+#shapka {
+    color: rgb(253, 215, 155);
+    margin: auto;
+    font-size: 1em;
+    
+   
+    
+    max-width: 1400px;
+    
+}
+#penpenpen {
+    color: rgb(253, 215, 155);
+    font-size: 1.2em;
+    margin: auto;
+
+    
+    border-bottom: 2px solid silver;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.bord {
+    margin: auto;
+    font-size: 0.5em;
+    border-bottom: 2px solid silver ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.droch{
+   
+    display: flex;
+    flex-direction: column;
+}
+#cunteynir{
+    width: 440px;
+    border: 2px solid silver;
+    padding: 10px;
+    
+    margin-top: 20px;
+    font-size: 1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#cunteynir_1 {
+    width: 440px;
+    border: 2px solid silver;
+    padding: 10px;
+    
+    margin-top: 20px;
+    font-size: 1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.cunteynir-all{
+    display: flex;
+    justify-content: space-around;
+    max-width: 1400px;
+    margin: 1rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid silver;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+section {
+    border-bottom: 2px solid silver;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.ZAG{
+    width: 100%;
+}
+.PENIS{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0 30px;
+    max-width: 1400px;
+}
+.PreimSuper {
+    border-bottom: 2px solid silver;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 25%;
+    height: 30%;
+    margin: 40px 30px;
+    padding-bottom: 40px;
+}
+.TXT {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 1.1em;
+}
+.ZAGsup {
+    display: flex;
+    font-size: 1.2em;
+    flex-direction: column;
+    justify-content: center;
+    
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(253, 215, 155);
+    
+
+}
+.preim {
+    border-bottom: 2px solid silver;
+    
+
+}
+.GALERY-STOIMOST {
+    width: 100%;
+}
+.ZAGsup_2 {
+    display: flex;
+    font-size: 1.2em;
+    flex-direction: column;
+    justify-content: center;
+    
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(253, 215, 155);
+
+}
+.preim_2 {
+    border-bottom: 2px solid silver;
+   
+}
+.PENIS_2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0 30px;
+    max-width: 1400px;
+}
+.PreimSuper_2 {
+    border-bottom: 2px solid silver;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 25%;
+    height: 30%;
+    margin: 40px 30px;
+    padding-bottom: 40px;
+}
+.PICTURE {
+    font-size: auto;
+    border: 2px solid silver;
+
+}
+.PIC {
+    padding: 10px;
+    border: 2px solid silver;
+}
+
+footer{
+    border-bottom: 2px solid silver;
+    margin-top: 10px;
+}
+.footer_1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.footer_2 {
+    max-width: 1400px;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 100px;
+
+}
+.footer_Levo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    text-align: center;
+    align-items: center;
+    margin-bottom: auto;
+}
+.copyright {
+    color: rgb(253, 215, 155);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.LogoP {
+    border-radius: auto;
+    margin-bottom: 10px;
+    padding-top: 50px;
+}
+.footer_central {
+    display: flex;
+    flex-direction: column;
+    margin: 0 40px;
+    color: rgb(253, 215, 155);
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+}
+.footer_ceentral_con {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.1em;
+    color: rgb(253, 215, 155);
+}
+.footer_Pravo {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(253, 215, 155);
+    font-size: 1.2em;
+    padding: 20px;
+    border: 2px solid silver;
+
+}
